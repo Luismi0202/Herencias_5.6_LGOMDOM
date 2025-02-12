@@ -20,13 +20,13 @@ Puedes declarar la variable de la siguiente forma:
 val articulos = listOf(articulo1, articulo2, ordenador1, ordenador2)
 Responde a las siguientes preguntas:
 
-1.-¿De qué tipo genera en la lista por defecto el compilador?
+# 1.-¿De qué tipo genera en la lista por defecto el compilador?
 De clase Articulo, ya que es la padre de todas ellas y el compilador detectará automáticamente que la clase ordenador es heredada de ella.
 
-2.-¿Qué está ocurriendo en este ejemplo con respecto a lo que hemos visto del polimorfismo de la herencia?
+# 2.-¿Qué está ocurriendo en este ejemplo con respecto a lo que hemos visto del polimorfismo de la herencia?
 Que realmente la clase heredada será vista como una clase padre, con atributos y métodos similares (ya que puedes sobreescribir estos métodos y poner más atributos), haciendo que de una clase padre, podamos
 hacer más clases relacionadas.
 
-3.-¿Qué pasaría si creáramos la lista con listOf<Ordenador>? ¿Y si la hiciéramos con listOf<Any>?
+# 3.-¿Qué pasaría si creáramos la lista con listOf<Ordenador>? ¿Y si la hiciéramos con listOf<Any>?
 List Ordenador> Será una lista donde solo podrá entrar la clase ordenador y no su padre
 Any> Podrá entrar cualquier tipo de dato.
